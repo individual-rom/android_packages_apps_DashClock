@@ -44,7 +44,7 @@
             android:entries="@array/pref_homescreen_background_opacity_display_names"
             android:title="@string/pref_background_title"
             android:dialogTitle="@string/pref_homescreen_background_opacity_title"
-            android:defaultValue="50"
+            android:defaultValue="0"
             android:negativeButtonText="@null"
             android:positiveButtonText="@null" />
 
