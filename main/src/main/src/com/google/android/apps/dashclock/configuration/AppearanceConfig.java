@@ -126,10 +126,10 @@ public class AppearanceConfig {
     }
 
     public static int getHomescreenBackgroundColor(Context context) {
-        int opacity = 50;
+        int opacity = 0;
         try {
             opacity = Integer.parseInt(PreferenceManager.getDefaultSharedPreferences(context)
-                    .getString(PREF_HOMESCREEN_BACKGROUND_OPACITY, "50"));
+                    .getString(PREF_HOMESCREEN_BACKGROUND_OPACITY, "0"));
         } catch (NumberFormatException ignored) {
         }
 
